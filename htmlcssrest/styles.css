@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #3e3e3e;
+}
+
+/* Header Styles */
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.fqa {
+  background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Popular Dishes Section */
+.popular-dishes {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.popular-dishes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popular-dishes li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Cuisines Section */
+.cuisines {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.cuisines ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cuisines li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Menu Section */
+.menu {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.menu th, .menu td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.menu th {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.menu tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}

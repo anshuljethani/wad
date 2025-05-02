@@ -1,0 +1,74 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+h1, h2, h3 {
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+/* Header */
+header {
+  background-color: #4f46e5;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* Sections */
+section {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Lists */
+.learning-paths ol,
+.categories ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.learning-paths li,
+.categories li {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+/* Table */
+.course-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.course-table th, .course-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+.course-table th {
+  background-color: #4f46e5;
+  color: white;
+}
+.course-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #4f46e5;
+  color: white;
+}
